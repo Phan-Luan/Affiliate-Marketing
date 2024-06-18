@@ -1,0 +1,257 @@
+.content-forum{
+      border-top: 2px solid #ccc;
+      margin-top: 15px;
+}
+
+.content-forum ul li {
+      padding: 10px;
+      /* border-top: 2px solid #ccc; */
+      border-bottom: 2px solid #ccc;
+}
+
+.bg-background {
+      background-image: url(/customer/sidebar.jpg);
+    background-size: cover;
+}
+
+.rounded {
+      border-radius: 0 !important;
+}
+
+
+/* tổng thành viên  */
+
+    .flip-2{
+      /* padding:20px; */
+      cursor:pointer;
+      /* background: red; Old browsers */
+
+      color:#ffffff;
+    }
+
+    .flip-2 h4 {
+          color: #fff !important;
+    }
+
+    .nav-link{
+          font-size: 1.2em !important;
+          font-weight: bold !important;
+          color: #000 !important;
+    }
+
+    tr td {
+      font-size: 1.2em !important;
+      font-weight: bold !important;
+      color: #000 !important;
+}
+
+    .system-pro{
+      display: flex;
+    }
+
+    .system-pro .system-pro-2 {
+      padding-left:12% !important;
+      /* margin: 0 auto !important; */
+    }
+
+    .qr-pa {
+          margin-top: 15px;
+    }
+
+
+
+    .content-forum ul li a:hover{
+          color: red;
+    }
+
+    .system-pro-2 a {
+          color: #fff;
+          text-transform: uppercase;
+          font-size: 1.3rem;
+    }
+
+    .system-pro-2 i {
+          padding: 5px;
+    }
+
+    .full-page-bg {
+          padding-left: 17% ;
+    }
+
+    .submit-post {
+          width: 20%;
+          font-size: 1.5em;
+          border-radius: 25px;
+          font-weight: bold;
+    }
+
+    .qr-pa svg {
+          width: 80px;
+          height: 80px;
+    }
+
+    /* slider bài viết */
+
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+html {
+  border-top: 5px solid #fff;
+  background: #58DDAF;
+  color: #2a2a2a;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+}
+
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+  width: 85% !important;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  height: 300px;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+}
+
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+.slider_option {
+  position: relative;
+  margin: 10px auto;
+  width: 160px;
+  font-size: 18px;
+}
+
+.tbale-sys-1 , .tbale-sys-2 {
+      /* border: 1px solid #000; */
+      padding: 10px;
+      width: 90%;
+}
+
+.tbale-sys-1 {
+      margin-bottom: 15px;
+}
+.tbale-sys-1 li , .tbale-sys-2 li{
+      width: 50%;
+      margin-top: 10px;
+      position: relative;
+}
+
+.tbale-sys-1 i , .tbale-sys-2 i{
+      font-size: 15px;
+      /* right: 0; */
+      float: right;
+      margin-top: 22px;
+
+}
+
+.nav-haha {
+      position: relative;
+      left: 25%;
+}
+
+.system-profile {
+      background-size: cover;
+      background-color: #ffffff75;
+      opacity: 0.9;
+}
+
+
+
+    @media screen and (max-width: 992px) {
+      .full-page-bg {
+            padding-left: 0% !important;
+      }
+      .system-pro-2 a{
+            font-size: 0.9rem;
+      }
+      .system-pro .system-pro-2{
+            padding-left: 9% !important;
+      }
+      .system-pro-2 i {
+            margin-right: 10px;
+      }
+      /* .full-page-bg{
+            padding: 0 !important;
+      } */
+      .title-forum-home {
+            font-size: 1.5rem;
+      }
+        .tbale-sys-1, .tbale-sys-2 {
+            width: 100%;
+        }
+        .nav-haha {
+            left: 0;
+        }
+        .tbale-sys-1 li, .tbale-sys-2 li {
+            width: 100%;
+        }
+        .nav-haha h4 {
+            font-size: 14px;
+        }
+    }
+
+    @media screen and (min-width: 992px) {
+        .cate-system {
+            display: none;
+          }
+
+
+    }

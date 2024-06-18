@@ -1,0 +1,36 @@
+{
+    "short_name": "Ruby.com.vn",
+    "name": "Ruby.com.vn",
+    "description": "Thân Khỏe - Tâm An - Trí Minh",
+    "icons": [
+        {
+            "src": "https://trituetunhien.vn/content/landingpage/trangchu/assets/images/logo-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "https://trituetunhien.vn/content/landingpage/trangchu/assets/images/logo-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/account/home",
+    "background_color": "#0b7c54",
+    "display": "standalone",
+    "scope": "https://trituetunhien.vn/",
+    "theme_color": "#0b7c54",
+    "shortcuts": [
+        {
+            "name": "Ruby.com.vn",
+            "short_name": "Ruby.com.vn",
+            "description": "Thân Khỏe - Tâm An - Trí Minh",
+            "url": "https://trituetunhien.vn/",
+            "icons": [
+                {
+                    "src": "https://trituetunhien.vn/content/landingpage/trangchu/assets/images/logo-192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ]
+}

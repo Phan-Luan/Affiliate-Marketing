@@ -1,0 +1,182 @@
+
+/* PC only */
+
+@media (min-width: 1024px) {
+    .hide-on-pc {
+        display: none !important;
+    }
+
+}
+
+/* Tablet to PC low resolution */
+@media (min-width: 985px) and (max-width: 1200px) {
+    .hidden-pc-low{
+        display: none;
+    }
+
+    
+}
+
+/* Tablet Only */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hidden-tl{
+        display: none !important;
+    }
+
+    .centering-mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .we-button{
+        margin-bottom: 20px;
+    }
+}
+
+/* Mobile Only */
+@media (max-width: 739px) {
+    .hidden-m {
+        display: none !important;
+    }
+
+    .centering-mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .u-know-cart-img{
+        height: 140px;
+        width: 100%;
+    }
+
+    .u-know-cart-desc{
+        font-size: 12px;
+    }
+
+    .intro-cart{
+        margin-top: 50px;
+    }
+
+    .cart-content{
+        padding: 20px;
+    }
+
+    .cart-content-right{
+        padding-right: 0;
+        padding-top: 10px;
+    }    
+
+    .we-button{
+        margin-bottom: 20px;
+    }
+
+    .we{
+        padding: 20px 0;
+    }
+
+    .partner{
+        margin: 20px 0;
+    }
+
+    .product.mt-5{
+        margin-top: 20px !important;
+    }
+
+    .primary-title{
+        font-size: 24px;
+    }
+
+    .number-item{
+        margin: 10px 0;
+    }
+
+    .number-item{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .number-item-value{
+        text-align: center;
+    }
+
+    .number-item-desc{
+        text-align: center;
+    }
+
+    .voucher-content{
+        margin-top: 30px;
+    }
+
+    .footer-title{
+        font-size: 18px;
+    }
+
+    .accor-title-text{
+        font-size: 14px;
+    }
+
+    .about .col-lg-4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about{
+        padding: 10px 0;
+    }
+
+    .about .col-lg-4 img{
+        width: 280px;
+    }
+
+    .we-title{
+        text-align: center;
+    }
+
+    .u-know-button-text{
+        font-size: 14px;
+    }
+
+    #formRegisterDownline .d-flex{
+        flex-direction: column;
+    }
+
+    .voucher .row{
+        flex-direction: column-reverse
+    }
+
+    .cart-content-title{
+        font-size: 27px;
+    }
+
+    .product-cart-img{
+        height: 290px;
+    }
+
+    .product-cart-img img {
+        object-fit: cover;
+    }
+}
+
+/* 500*/
+@media (min-width: 500px) and (max-width: 742px) {
+    .hidden-500plus {
+        display: none !important;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .hidden-500{
+        display: none !important;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .main-content{
+        width: 100% !important;
+    }
+}

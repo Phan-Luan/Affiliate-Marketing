@@ -1,0 +1,56 @@
+@media only screen and (max-width: 600px) {
+    .tab-content h3 {
+      font-size: 30px !important;
+    }
+  
+    .tab-content p {
+      font-size: 20px !important;
+    }
+  
+    .tab-content small {
+      display: none !important;
+    }
+  }
+  
+  .modal {
+    background-color: #c4c4c480 !important;
+  }
+  
+  .divPlugin a {
+    font-size: 16px;
+  }
+  .wrapper {
+    overflow-x: hidden;
+  }
+  
+  .bgTriAnDone {
+    background: #0b7a55 !important;
+  }
+  .bgTriAn {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    0% {
+      background-color: #0c9164;
+    }
+  
+    25% {
+      background-color: #d74298;
+    }
+  
+    50% {
+      background-color: #e7b415;
+    }
+  
+    100% {
+      background-color: green;
+    }
+  }
+
+  
